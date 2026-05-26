@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw data can be large or restricted by journal/data policy.
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+data/raw/real confocal images of emulsion gels/
+data/raw/**/*.tif
+data/raw/**/*.tiff
+data/raw/**/*.png
+data/raw/**/*.jpg
+data/raw/**/*.jpeg
+
+# Generated analysis outputs.
+outputs/
+emulsion_gel_descriptor_results/
+
+# Local environments.
+.venv/
+venv/
+env/
+.ipynb_checkpoints/

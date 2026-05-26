@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+pillow
+scipy
+scikit-image
+scikit-learn
+openpyxl
+shap
+xgboost
+
+# Optional simulation-guided structure generation.
+# Install HOOMD-blue separately if needed, for example with conda/mamba.
+# hoomd
