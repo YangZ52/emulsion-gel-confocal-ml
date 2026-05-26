@@ -103,23 +103,8 @@ real confocal images of emulsion gels/
 
 The model evaluation uses grouped cross-validation by formulation to avoid replicate-image leakage. Images from the same formulation are kept in the same fold.
 
-One image, `picture16.tif`, is excluded from training, testing, and figures to keep the analysis consistent with the manuscript workflow.
-
 ## Optional Components
 
 - `xgboost` is optional. If it is not installed, the script skips XGBoost.
 - `shap` is required for SHAP interpretation figures.
 - `hoomd` is optional and only used for simulation-guided structure generation.
-
-## Recommended GitHub/Journals Notes
-
-For journal submission, this repository is intended to provide:
-
-- Analysis code
-- Example formulation table
-- Representative confocal images
-- Reproducible folder structure
-- Dependency list
-- Clear instructions for placing the raw data
-
-If raw confocal images cannot be public, provide a data availability statement in the manuscript and include either representative images or a small anonymized example dataset.

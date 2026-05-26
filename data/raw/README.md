@@ -20,5 +20,3 @@ Expected Excel content:
 - `NaCl_mM`
 - `CaCl2_mM`
 - optional pixel calibration column used in the full workflow
-
-The script excludes `picture16.tif` from training, testing, and figures.
