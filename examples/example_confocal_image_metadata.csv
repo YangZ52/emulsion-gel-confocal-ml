@@ -1,0 +1,7 @@
+sample number,image_file,protein type,heat,protein conc_percentage,oil vol_percentage,pH,NaCl_mM,CaCl2_mM,G'_1Hz,Breaking stress (Pa),Pixel_size_um,example_png,selection_note
+2,picture2.tif,QPI,N,3,20,5,0,0,70,3,0.0481,confocal_images/picture2.png,Representative example spanning low-to-high rheology
+25,picture25.tif,FPI,N,1,50,7,0,0,300,80,0.0801667,confocal_images/picture25.png,Representative example spanning low-to-high rheology
+20,picture20.tif,QPI,N,3,40,9,0,0,900,80,0.0481,confocal_images/picture20.png,Representative example spanning low-to-high rheology
+60,picture60.tif,FPI,Y,1,50,7,0,0,1500,260,0.0801667,confocal_images/picture60.png,Representative example spanning low-to-high rheology
+128,picture128.tif,FPI,Y,3,50,7,0,40,3700,200,0.0801667,confocal_images/picture128.png,Representative example spanning low-to-high rheology
+112,picture112.tif,FPI,Y,5,50,7,0,0,7000,800,0.0801667,confocal_images/picture112.png,Representative example spanning low-to-high rheology

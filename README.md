@@ -17,6 +17,8 @@ It also generates publication-style figures, including descriptor-rheology plots
 ├── src/
 │   └── emulsion_gel_confocal_ml_publication.py
 ├── examples/
+│   ├── confocal_images/
+│   ├── example_confocal_image_metadata.csv
 │   └── unique_formulations.csv
 ├── docs/
 │   └── emulsion_gel_25_unique_formulations_landscape.docx
@@ -39,7 +41,24 @@ data/raw/real confocal images of emulsion gels/
 
 The Excel file should contain image names, formulation variables, G' at 1 Hz, and breaking stress. The image folder should contain the matching confocal image files, for example `picture1.tif`.
 
-Raw data and images are not included by default because they may be too large or journal-restricted. If journal policy allows, add the raw data or a representative example dataset.
+The full raw image dataset is not included by default because confocal TIFF files can be large. A small representative image set is included in `examples/confocal_images/` as compressed PNG files, with matching metadata in `examples/example_confocal_image_metadata.csv`.
+
+For full reproducibility, deposit the full raw image dataset and metadata workbook in a data repository such as Zenodo, Figshare, OSF, Dryad, or an institutional repository, then link the DOI here and in the manuscript.
+
+## Example Confocal Images
+
+This repository includes six representative confocal images spanning low-to-high rheological response:
+
+```text
+examples/confocal_images/picture2.png
+examples/confocal_images/picture25.png
+examples/confocal_images/picture20.png
+examples/confocal_images/picture60.png
+examples/confocal_images/picture128.png
+examples/confocal_images/picture112.png
+```
+
+These are compressed example PNGs derived from the original TIFF images for convenient GitHub viewing. They are intended for demonstration and visual reference; use the original TIFF files for full-resolution quantitative analysis.
 
 ## Run
 
@@ -98,6 +117,7 @@ For journal submission, this repository is intended to provide:
 
 - Analysis code
 - Example formulation table
+- Representative confocal images
 - Reproducible folder structure
 - Dependency list
 - Clear instructions for placing the raw data
